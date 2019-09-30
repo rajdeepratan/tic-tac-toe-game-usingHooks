@@ -1,0 +1,48 @@
+.game-board{
+  .game-name{
+    text-align: center;
+    font-size: 40px;
+  }
+  .row{
+    .column{
+      .square{
+        color: #ffffff;
+        background: #ffffff00;
+        border: 4px solid #ffffff;
+        float: left;
+        font-size: 96px;
+        font-weight: bold;
+        line-height: 136px;
+        height: 136px;
+        margin-right: -1px;
+        margin-top: -1px;
+        padding: 0;
+        text-align: center;
+        width: 136px;
+      }
+      .square:focus {
+        outline: none;
+      }
+    }
+  }
+  .game-status{
+    text-align: center;
+    font-size: 25px;
+  }
+  .reset-button{
+    margin-top: 10px;
+    text-align: center;
+    button{
+      width: 150px;
+      height: 50px;
+      font-size: 30px;
+      background: #ffffff00;
+      border: 4px solid #ffffff;
+      color: #ffffff;
+    }
+
+    button:focus {
+      outline: none;
+    }
+  }
+}
